@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(22, 22, 58);
+}
+.logotype{
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(253, 255, 144);
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(52, 52, 131, 0.338);
+}
+li{
+    cursor: pointer;
+    margin-left: 100px;
+    color: rgb(253, 255, 144);;
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 255, 144);
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    color: aliceblue;
+}
